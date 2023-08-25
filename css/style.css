@@ -132,7 +132,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-  background-color: #198754;
+  background-color: #79155b;
 
   /* box-shadow membuat efek bayangan */
   box-shadow: 0 3px 7px -2px #000;
@@ -328,7 +328,7 @@ maka akan menghasilkan efek animasi yang smooth
 */
 div.produk img:hover {
   /* membuat transformasi, bisa berupa scale(1.05), rotate(180deg), translateY(-50px), dsb */
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
   border-radius: 50%;
 }
 
@@ -362,6 +362,7 @@ section.about-us img {
   width: 800px;
   max-width: 100%;
   margin: auto;
+  border-radius: 25px;
 }
 
 /*
@@ -454,6 +455,7 @@ div.testimoni {
   padding: 35px 50px;
   box-shadow: 0px 0px 12px -10px #000;
   background-color: #fff;
+  border-radius: 15px;
 }
 
 div.testimoni img {
@@ -478,6 +480,7 @@ div.profile p {
 div.testimoni > p {
   width: 100%;
   text-align: left;
+  margin: 30px 0;
 }
 
 /* CONTACT US */
@@ -502,10 +505,10 @@ div.kontak {
 /* FOOTER */
 
 footer {
-  background-color: #198754;
+  background-color: #faf0e6;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #fff;
+  color: black;
   padding-right: 40px;
   padding-left: 40px;
 }
